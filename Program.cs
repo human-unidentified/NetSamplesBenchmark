@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using BenchmarkDotNet.Running;
 using NetSamplesBenchmark.Benchmarks;
 
@@ -8,10 +11,14 @@ namespace NetSamplesBenchmark
     {
         static void Main(string[] args)
         {
-            BenchmarkRunner.Run<BenchStringsIndexOf>();
+            //var bd = new BenchmarkDictionaries();
+            //bd.TestStandard();
+
+            BenchmarkRunner.Run<BenchmarkDictionaries>();
 
             Console.WriteLine("Press any key...");
             Console.ReadKey();
         }
     }
+
 }
