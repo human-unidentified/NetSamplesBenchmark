@@ -3,6 +3,8 @@ using BenchmarkDotNet.Attributes;
 
 namespace NetSamplesBenchmark.Benchmarks
 {
+    [MemoryDiagnoser]
+    [ThreadingDiagnoser]
     public class BenchFormatStr
     {
         [Benchmark(OperationsPerInvoke = 100)]

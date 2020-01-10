@@ -8,6 +8,8 @@ using NetSamplesBenchmark.Dictionaries;
 
 namespace NetSamplesBenchmark.Benchmarks
 {
+    [MemoryDiagnoser]
+    //[ThreadingDiagnoser]
     public class BenchmarkDictionaries
     {
         [Benchmark]

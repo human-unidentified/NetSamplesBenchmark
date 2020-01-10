@@ -2,6 +2,7 @@
 
 namespace NetSamplesBenchmark.Benchmarks
 {
+    [MemoryDiagnoser]
     public class BenchResources
     {
         private static string _str;
