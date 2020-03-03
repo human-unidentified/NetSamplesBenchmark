@@ -249,6 +249,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Benchmarks\BenchFormatStr.cs" />
+    <Compile Include="Benchmarks\BenchHashsetVsList.cs" />
     <Compile Include="Benchmarks\BenchmarkDictionaries.cs" />
     <Compile Include="Benchmarks\BenchResources.cs" />
     <Compile Include="Benchmarks\BenchStringsIndexOf.cs" />

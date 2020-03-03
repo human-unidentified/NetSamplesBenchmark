@@ -8,7 +8,7 @@ namespace NetSamplesBenchmark
     {
         static void Main()
         {
-            BenchmarkRunner.Run<BenchFormatStr>();
+            BenchmarkRunner.Run<BenchHashsetVsList>();
 
             Console.WriteLine("Press any key...");
             Console.ReadKey();
