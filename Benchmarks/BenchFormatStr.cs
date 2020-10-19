@@ -4,7 +4,7 @@ using BenchmarkDotNet.Attributes;
 namespace NetSamplesBenchmark.Benchmarks
 {
     [MemoryDiagnoser]
-    [ThreadingDiagnoser]
+    //[ThreadingDiagnoser]
     public class BenchFormatStr
     {
         [Benchmark(OperationsPerInvoke = 100)]
